@@ -1,0 +1,35 @@
+h1{
+      background-color: yellow;
+      color: brown;
+}
+
+.paraclass{
+      background-color: aquamarine;
+      color: blueviolet;
+}
+
+/* rgb --> rgb(Red, Green, blue) -- number used between 0 to 255*/
+#firstId{
+      background-color: rgb(151, 65, 65);
+}
+
+/* rgba -> a -- alpha --> use for transparancy -- number used between 0 to 1*/
+#secondId{
+      background-color: rgba(70, 133, 140, 0.5);
+}
+
+/* hex color coding is from 0 to f --> mean 0 to 15 --> 000000 is black and ffffff is white --> first two letter is for red next two is for green and final two is for blue*/
+
+ul{
+      background-color: #f0e90e;
+      color: #075caadf;
+
+}
+
+/* hsl --> hsl(hue, saturation, lightness)
+  1)hue is degreen on color wheel from 0 to 360, 0 or 360 is red, 120 is green, 240 is blue
+  2)saturation is intencity of color from 0% to 100%
+  3)lightness of color describs as how much light you want to give to color where 0% means no light (dark) 100% mean full light*/
+ol{
+      background-color: hsl(23, 50%, 50%);
+}
