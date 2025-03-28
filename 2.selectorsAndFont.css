@@ -1,0 +1,66 @@
+/* CSS works by taking in four factors, listed in order from highest weight to least weight:
+1) Origin and importance.
+2) Specificity.
+3) Order in the file.
+4) Inheritance. */
+
+/* selectors
+1) select by element >> h1{ , p{ , article{ , section{
+2) select by id >> #abc, #xyz, #idname
+3) select by class >> .para, .className, .xyz
+4) select by group >> p,article{ ,  */
+
+/* 1px = 0.26mm,  1px = 1/96inch */
+
+.protest-guerrilla-regular {
+      font-family: "Protest Guerrilla", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+
+
+h1{
+      color:bisque;
+      background-color: rgb(136, 178, 232);
+}
+
+nav{
+      text-align: center;
+}
+
+#firstId{
+      background-color: brown;
+      color: cadetblue;
+}
+
+.paraclass{
+      color: chartreuse;
+      background-color: aliceblue;
+}
+p,article {
+      color: crimson;
+}
+
+
+/* FONT */
+
+/* for external font copy link tag from font website and paste it in head tag   >>  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">*/
+
+article{
+      font-style: italic;
+      font-size: 15px;
+      font-family: cursive;
+}
+p{
+      font-size: 30px;
+      font-weight: bolder;  /*degree of darkness*/
+      line-height: 40px;
+}
+
+#secondId{
+      line-height: 5px;  /* gap between two line*/
+}
+
