@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    background-image: linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+}
+.navContainer{
+    width: 100vw;
+    /* background-color: #536f84; */
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+}
+#navList{
+    list-style: none;  /*removes dots in un-order list*/
+    font-size: 2rem;
+    display: flex;  /*#navList is parent container id*/
+    justify-content: space-between; /*extream left and right*/
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 100%;
+    padding: 15px;
+    
+}
+#navLogo{
+    font-size: 2.3rem;
+    color: #cae28c;
+}
+a{
+    text-decoration: none;  /*removes underline from anchor tag*/
+    color: white;
+}
+#navItems{
+    display: flex;
+    gap: 20px;
+}
+.footerBox{
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    color: azure;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+.contentBox{
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+}
