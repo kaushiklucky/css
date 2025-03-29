@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>box-sizing inline and block</title>
+      <link rel="stylesheet" href="6.box-sizingInlineAndBlock.css">
+</head>
+<body>
+      <p id="without_box_sizing-border-box" style="background-color: aquamarine;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore, modi quo illo vel ducimus beatae cumque sed, incidunt consequatur nam? Praesentium nesciunt magnam aliquam, numquam labore hic repudiandae magni!<pre><b>content is 300 X 300 without box sizing boder box</b></pre></p>
+
+      <br>
+
+      <p id="without_box_sizing-border-box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore, modi quo illo vel ducimus beatae cumque sed, incidunt consequatur nam? Praesentium nesciunt magnam aliquam, numquam labore hic repudiandae magni!<pre><b>now the box is 305 X 305 5px border added</b></pre></p>
+
+      <br>
+
+      <p id="without_box_sizing-border-box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore, modi quo illo vel ducimus beatae cumque sed, incidunt consequatur nam? Praesentium nesciunt magnam aliquam, numquam labore hic repudiandae magni!<pre><b>now the box is 355 X 355 5px border, 20px padding and 30px margin added</b></pre></p>
+
+      <br>
+
+      <p id="with_box_sizing-border-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore, modi quo illo vel ducimus beatae cumque sed, incidunt consequatur nam? Praesentium nesciunt magnam aliquam, numquam labore hic repudiandae magni!<pre><b>now the box is 300 X 300 but content size become 290.667 X 290.667, 5px border is added but box dimension not change to 305X305 bcos "box-sizing: border-box" is applied</b></pre></p>
+
+      <br>
+
+      <p id="box_sizing-border-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto unde excepturi libero minima ipsa, repudiandae recusandae fugit id modi est.  <pre><b>now the box is 300 X 300 but content size become 250.667 X 250.667, 5px border, 20px padding and 30px margin added but box dimension not change to 355X355 bcos "box-sizing: border-box" is applied</b></pre></p>
+
+      <br><br>
+
+      <p id="box_sizing-content-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi fugit, perspiciatis qui odio optio accusantium, suscipit totam maiores consectetur recusandae. Maxime officiis ipsa velit omnis minima officia voluptatem repellendus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus tempore aut odio recusandae eveniet commodi veniam repellendus doloremque nihil totam?  </p>
+
+      <span>this is lucky kaushik</span>
+      <span>this is lucky kaushik 2.O</span>
+      <span id="spanId">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium quos, doloribus incidunt magnam labore!</span>
+      <p class="blockAsInlineElement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores qui deleniti voluptates accusantium unde. Beatae quam cum quas ipsam.</p>
+      <p class="blockAsInlineElement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores qui deleniti voluptates accusantium unde. Beatae quam cum quas ipsam.</p>
+
+      <span class="inline_block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia facere ea laudantium officiis excepturi, vitae incidunt, quas quasi cupiditate dignissimos soluta in perferendis iusto possimus quam? Accusantium, esse quas?</span>
+
+      <span class="inline_block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia facere ea laudantium officiis excepturi, vitae incidunt, quas quasi cupiditate dignissimos soluta in perferendis iusto possimus quam? Accusantium, esse quas?</span>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+      background-color: gray;
+}
+h1, h2, h3{
+      color: rgb(68, 0, 255);
+      background-color: rgb(63, 55, 39);
+      text-align: center;
+      text-decoration: solid;
+      font-size: xx-large;
+}
+p{
+      color: aquamarine;
+      background-color: blue;
+}
+button{
+      color: brown;
+      background-color: cadetblue;
+}

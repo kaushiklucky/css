@@ -1,0 +1,64 @@
+h1{
+      background-color:antiquewhite;
+      border-style: solid;  /*border around edges of an element.*/
+      border-width: 5px;   /* size of border around edges of an element.*/
+      border-color: brown;  /*color of border*/
+      /* border-radius: 10px; */
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 280px;  /* width specifies content area in horizontal --> how much area to be cover by element horizontally*/
+      height: 100px; /*height specifies content area in vertical --> how much area to be cover by element verically*/
+}
+
+#h1Id{
+      background-color: cornflowerblue;
+      border-top: solid yellowgreen 5px;
+      width: 350px;  /* width specifies content area in horizontal --> how much area to be cover by element horizontally*/
+      height: 200px;/*height specifies content area in vertical --> how much area to be cover by element verically*/
+      
+}
+
+#firstId{
+      background-color: aqua;
+      border:solid brown 2px;  /*sort way --> solid edge, brown color and 2px size*/
+      border-radius: 15px; /*to round the sharp corner*/
+      width: 300px;
+
+}
+#secondId{
+      font-size: 30px;
+      background-color: aquamarine;
+      border-top: solid yellowgreen 5px;
+      border-bottom-right-radius: 20px;
+      width: 400px; /*Specifies the width of the content area*/
+
+
+}
+#thirdId{
+      font-size: 35px;
+      background-color: rgb(174, 126, 220);
+      border-left: solid red 10px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 500px;
+
+}
+
+/* The CSS rule you provided applies to span elements. However, the width and height properties will not work as expected because span is an inline element by default, and these properties do not apply to inline elements. You need to change the display property to inline-block or block to apply width and height. >>   display: inline-block;    */
+
+span{
+      background-color: pink;
+      border: solid black 3px;
+      border-radius: 5px;
+      width: 350px;
+      height: 200px;    
+      display: inline-block; /* or display: block; */
+}
+
+#forthId{
+      background-color: burlywood;
+      border-radius: 15px;
+      width: 600px;
+      height: 200px;
+
+}

@@ -1,0 +1,73 @@
+*{
+      padding: 0;
+      margin: 0;
+      background-color: black;
+}
+
+h1{
+      background-color:antiquewhite;
+      border-style: solid;
+      border-width: 5px;
+      border-color: brown;
+      width: 350px;
+      padding: 35px;  /*padding is the area between content and border*/
+      margin: 50px;  /*gap between two boxes is margin*/
+
+}
+
+#h1Id{
+      background-color: cornflowerblue;
+      border-top: solid yellowgreen 5px;
+      width: 350px;
+}
+
+#firstId{
+      background-color: aqua;
+      border:solid brown 2px;
+      border-radius: 15px;
+      width: 300px;
+      padding: 30px;  /*padding 30px in all direction(top, right, bottom, left)*/
+      margin-left: 400px;
+
+}
+#secondId{
+      font-size: 30px;
+      background-color: aquamarine;
+      border-top: solid yellowgreen 5px;
+      border-bottom-right-radius: 20px;
+      width: 400px;
+      padding-left: 20px;  /*padding in left 20px*/
+      padding-top: 30px;   /*padding in top 30px*/
+      padding-right: 40px;  /*padding in right 40px*/
+      padding-bottom: 50px;  /*padding in bottom 50px*/
+
+      margin-left: 30px;  /*margin in left 30px*/
+      margin-top: 40px;   /*margin in top 40px*/
+      margin-right: 50px;  /*margin in right 50px*/
+      margin-bottom: 60px;  /*margin in bottom 60px*/
+
+
+}
+#thirdId{
+      font-size: 35px;
+      background-color: rgb(174, 126, 220);
+      border-left: solid red 10px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 500px;
+      padding: 20px 30px 40px 50px;  /* 20px for the top, 30px for the right, 40px for the bottom, 50px for the left*/
+      margin: 30px 40px 50px 60px;      /* 30px for the top, 40px for the right, 50px for the bottom, 60px for the left*/
+
+
+}
+
+
+#forthId{
+      background-color: burlywood;
+      border-radius: 15px;
+      width: 600px;
+      height: 200px;
+      padding: 20px, 40px;
+
+}
+

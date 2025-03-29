@@ -1,0 +1,109 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+body{
+      background-color: rgb(89, 109, 103);
+}
+
+#without_box_sizing-border-box{
+      width: 300px;
+      height: 300px;
+}
+
+#without_box_sizing-border-box2{
+      width: 300px;
+      height: 300px;
+      border: 5px solid goldenrod;
+}
+
+#without_box_sizing-border-box3{
+      width: 300px;
+      height: 300px;
+      border: 5px solid palevioletred;
+      padding: 20px;
+      margin: 30px;
+
+}
+
+#with_box_sizing-border-box{
+      width: 300px;
+      height: 300px;
+      border: 5px solid greenyellow;
+      box-sizing: border-box;
+}
+
+#box_sizing-border-box{  /* This means the total width and height are constrained, and padding/border will not increase the size.*/
+      width: 300px;
+      height: 300px;
+      border: 5px solid white;
+      box-sizing: border-box;
+      padding: 20px;
+      margin: 30px;
+}
+
+#box_sizing-content-box{  /* Padding and border are added to the outside of the box, increasing the total size. */
+      box-sizing: content-box;
+      width: 300px;
+      height: 300px;
+      width: 100%;
+      border: solid #5B6DCD 10px;
+      padding: 5px;
+}
+
+span{   /*custom atributes are not applicable in inline */
+      border: 2px solid green;
+      width: 600px;
+      height: 400px;
+      margin: 10px;/*margin is only applicable in horizontal not in vertical*/
+      padding: 15px;
+}
+
+#spanId{
+      border: 8px solid white;
+     
+      margin: 25px;  /*margin is only applicable in horizontal not in vertical*/
+      padding: 20px;
+      display: block; /*inline element is now converted to block element*/
+
+}
+
+/*after converting inline span to block span margin can aplicable in both horizontal and vertical*/
+
+.blockAsInlineElement{
+      border: 7px solid blue;
+      margin: 50px;
+      padding: 30px;
+      display: inline;/* block element is now converted to inline element*/
+}
+
+.inline_block{
+      border: 5px solid crimson;
+      width: 300px;
+      height: 100px;
+      padding: 30px;
+      margin: 40px;
+      display: inline-block;
+      
+}
+
+/* display: inline-block;==>> used to make an element behave like an inline element while retaining the properties of a block element. It provides a useful way to layout elements that need to be positioned side-by-side but still need to have specific dimensions and margins.  */
+
+
+
+/*
+BLOCK:
+      -new line
+      -width extream left to extream right
+      -can apply costum hight and width
+      -margin and padding are applicable
+
+INLINE:
+      -same line
+      -width content ke snusal
+      -can't apply costum hight and width
+      -margin and padding only in horizontal not in vertical
+      inline can be converted to block
+
+
+*/
