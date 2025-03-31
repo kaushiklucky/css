@@ -1,0 +1,144 @@
+*{
+    /* background-color: rgb(59, 58, 58); */
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: rgb(124, 94, 153);
+}
+.boxOne1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 3px solid black;
+}
+@media(min-width:500px){
+    .boxOne{
+        background-color: rgb(64, 64, 225);
+    }
+}
+#boxTwo{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(101, 146, 146);
+    border: 3px solid black;
+}
+@media(min-width:300px) and (max-width:600px){
+    #boxTwo{
+        background-color: rgb(224, 99, 99);
+    }
+}
+
+
+.container{
+    background-color: gray;
+    border: 3px solid black;
+    /* margin: 2px;
+    padding: 2px; */
+    height: 500px;
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+#box1{
+    background-color: rgb(93, 93, 234);
+}
+#box2{
+    background-color: rgb(225, 186, 115);
+}
+#box3{
+    background-color: rgb(218, 131, 131);
+}
+#box4{
+    background-color: rgb(77, 114, 77);
+}
+
+@media(max-width:640px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media(min-width:640px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+.container1{
+    background-color: gray;
+    border: 3px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p{
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+#para1{
+    background-color: rgb(108, 108, 192);
+    margin: 10px;
+    padding: 10px;
+    
+}
+#para2{
+    background-color: rgb(227, 156, 156);
+    margin: 10px;
+    padding: 10px;
+}
+
+img{
+    height: 500px;
+    width: 300px;
+}
+
+@media(max-width:660px){
+    .container1{
+        flex-direction: column;
+    }
+}
+@media(min-width:660px){
+    .container1{
+        flex-direction: row;
+    }
+}
+
+.container2{
+    background-color: gray;
+    border: 3px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media(max-width:660px){
+    .container2{
+        flex-direction: column-reverse;
+    }
+}
+@media(min-width:660px){
+    .container2{
+        flex-direction: row;
+    }
+}
