@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Demonstration</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h2 {
+      margin: 20px 0 10px;
+    }
+
+    .container {
+      display: flex;
+      border: 2px solid black;
+      margin-bottom: 20px;
+      padding: 10px;
+      gap: 10px;
+      background-color: lightgray;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* Box colors */
+    .box1 { background-color: darkblue; }
+    .box2 { background-color: darkred; }
+    .box3 { background-color: darkorange; }
+    .box4 { background-color: darkgreen; }
+    .box5 { background-color: darkviolet; }
+
+    /* Containers */
+    #container1 {
+      justify-content: flex-start;
+    }
+
+    #container2 {
+      justify-content: flex-end;
+    }
+
+    #container3 {
+      justify-content: center;
+    }
+
+    #container4 {
+      justify-content: space-between;
+    }
+
+    #container5 {
+      justify-content: space-around;
+    }
+
+    #container6 {
+      align-items: stretch;
+    }
+
+    #container7 {
+      align-items: center;
+    }
+
+    #container8 {
+      flex-wrap: wrap;
+    }
+
+    #container9 {
+      flex-direction: column;
+    }
+
+    #container10 {
+      flex-flow: row-reverse wrap;
+    }
+
+    #container11 {
+      flex-grow: 1;
+      flex-shrink: 2;
+    }
+
+    #container12 {
+      align-content: space-between;
+      flex-wrap: wrap;
+      height: 200px; /* Set height to demonstrate align-content */
+    }
+
+    /* Custom box sizes for specific demonstrations */
+    .box1 { flex-basis: 50px; flex-grow: 1; flex-shrink: 1; }
+    .box2 { flex-basis: 100px; flex-grow: 2; flex-shrink: 0; }
+    .box3 { flex-basis: 150px; flex-grow: 3; flex-shrink: 1; }
+    .box4 { flex-basis: 200px; flex-grow: 0; flex-shrink: 1; }
+    .box5 { flex-basis: 50px; flex-grow: 1; flex-shrink: 2; }
+  </style>
+</head>
+<body>
+
+  <h1>Flexbox Demonstrations</h1>
+
+  <h2>Container 1: Justify Content (flex-start)</h2>
+  <div id="container1" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 2: Justify Content (flex-end)</h2>
+  <div id="container2" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 3: Justify Content (center)</h2>
+  <div id="container3" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 4: Justify Content (space-between)</h2>
+  <div id="container4" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 5: Justify Content (space-around)</h2>
+  <div id="container5" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 6: Align Items (stretch)</h2>
+  <div id="container6" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 7: Align Items (center)</h2>
+  <div id="container7" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 8: Flex Wrap</h2>
+  <div id="container8" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+  </div>
+
+  <h2>Container 9: Flex Direction (column)</h2>
+  <div id="container9" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 10: Flex Flow (row-reverse wrap)</h2>
+  <div id="container10" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+  </div>
+
+  <h2>Container 11: Flex Grow, Shrink, and Basis</h2>
+  <div id="container11" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+  </div>
+
+  <h2>Container 12: Align Content (space-between)</h2>
+  <div id="container12" class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+  </div>
+
+</body>
+</html>

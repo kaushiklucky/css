@@ -1,0 +1,94 @@
+*{
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      color: white;
+}
+
+div{
+      margin: 10px;
+      padding: 40px;
+}
+
+#container{
+      border: 5px solid blue;
+}
+
+img{
+      margin: 24px;
+}
+
+#static{   /*static positioning property is by default*/
+      border: 2px solid orange;  
+}
+
+
+#relative{  /*Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.*/
+      border:2px solid white;
+      
+}
+#relative_img2{
+      position: relative;
+      top: 100px;
+      left: 200px;
+}
+#relative_img4{
+      position: relative;
+      bottom: 100px;
+      right: 50px;
+}
+
+
+#absolute{  /*is positioned relative to the nearest positioned ancestor, if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.*/
+      position: relative;      /*The #absolute selector has the position set to relative, which means it's positioned relative to its normal position in the document flow. This setup allows absolutely positioned child elements to be positioned relative to #absolute.*/
+      border: 2px solid green;
+
+      /*Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.*/
+}
+
+#absolute_img2{
+      position: absolute;
+      top: 200px;
+}
+
+/*The #absolute_img2 selector has position: absolute, which means it will be positioned relative to its nearest positioned ancestor. In this case, since #absolute is positioned (relative), #absolute_img2 will be placed relative to #absolute.*/
+
+
+
+#fixed{
+      position: relative;
+      border: 2px solid brown;
+}
+#fixed_img3 {
+      position: fixed;
+      top: 0;
+      
+}
+
+
+#sticky{
+      position: relative;
+      border: 2px solid pink;
+      height: 800px;
+}
+#sticky_img1{
+      position: sticky;
+      top: 0;
+}
+
+
+
+#fixed_and_sticky{
+      position: relative;
+      border: 2px solid yellow;
+      height: 1000px;
+}
+#fixed_and_sticky_img2{
+      position: sticky;
+      top: 100px;
+}
+#fixed_and_sticky_img4{
+      position: fixed;
+      top: 100px;
+}
+  

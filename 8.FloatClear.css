@@ -1,0 +1,70 @@
+#img1{
+    float: left;
+    width: 300px;
+    height: 450px;
+}
+
+#img2{
+    float: right;
+    width: 300px;
+    height: 450px;
+}
+#img3{
+    float: right;
+    width: 200px;
+    height: 250px;
+    
+}
+#img4{
+    float: right;
+    width: 200px;
+    height: 200px;
+    clear: right;
+}
+
+#box{
+    border: 2px solid black;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    float: left;   /*this is called the greater collapse >> If a parent element contains nothing but floated elements, its height collapses to nothing. This isn’t always obvious if the parent doesn’t contain any visually noticeable background, but it is important to be aware of.  fix by overflow: auto;*/
+}
+
+#box1{
+    border: 2px solid black;
+}
+
+.item1{
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+#para1{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#para2{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+}
+#para3{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+
+/*read more -->  https://css-tricks.com/almanac/properties/f/float/   */

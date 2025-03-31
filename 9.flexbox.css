@@ -1,0 +1,155 @@
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  /* The value flex-flow: wrap-reverse; is not valid by itself because flex-flow requires both flex-direction and flex-wrap values. In this case, you're only specifying the flex-wrap part, which needs to be paired with a flex-direction. */
+
+    /*flex-direction: column;  flex-direction: row;  flex-direction: row-revers;  flex-direction: column-revers;*/
+
+    /*flex-direction: Defines the direction in which the flex items are placed.
+    row (default): Items are placed in a row, left to right.
+    column: Items are placed in a column, top to bottom.
+    row-reverse / column-reverse: Reverses the order.*/
+
+    /*flex-wrap: Controls whether items should wrap to the next line if they overflow.
+    nowrap (default): Items stay in a single line.
+    wrap: Items wrap to the next line.*/
+
+    /*The flex-flow property is a shorthand for combining two other properties:
+    flex-direction: Defines the direction of the flex items.
+    flex-wrap: Specifies whether the items should wrap or stay on a single line.*/
+
+
+#container{
+    background-color: cadetblue;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: orange;
+}
+#box4{
+    background-color: brown;
+}
+
+#container1{
+    background-color: cadetblue;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;      /*by default flex direction is row*/
+}
+
+#container2{
+    background-color: beige;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;       
+    flex-flow: row-reverse;
+}
+
+#container6{
+    background-color: rgb(110, 110, 66);
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;       
+    flex-flow: column;  /*flex-direction: column;*/
+    flex-wrap: wrap;
+
+    /*flex-direction: Only specifies the layout direction.
+    flex-flow: Specifies both the layout direction (flex-direction) and whether the items should wrap (flex-wrap*/
+}
+
+#container7{
+    background-color: beige;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;       
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    
+}
+
+#container8{
+    background-color: rgb(65, 65, 50);
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;       
+    flex-wrap: wrap;
+
+    /*
+    The flex-wrap property in CSS tells items in a flex container whether they should stay in one line or move to the next line if there's not enough space.
+
+    nowrap: All items stay on one line, even if they overflow (default).
+    wrap: Items will move to the next line if needed.
+    wrap-reverse: Items move to the next line, but in reverse (start from the bottom)
+    */
+}
+
+#container9{
+    background-color: rgb(33, 60, 81);
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+}
+
+
+#container3{
+    background-color: cadetblue;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 500px;
+    display: flex;
+
+    justify-content: center; /*Center from horizontal
+    justify-content: Aligns items horizontally within the container.
+    flex-start: Items align to the left.
+    center: Items align to the center.
+    space-between: Items are evenly spaced.
+    space-around / space-evenly: Adds space around items.*/
+
+}
+
+#container4{
+    background-color: cadetblue;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container5{
+    background-color: cadetblue;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
