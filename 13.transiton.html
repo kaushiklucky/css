@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transiton</title>
+    <link rel="stylesheet" href="13.transiton.css" />
+  </head>
+  <body>
+    <div class="box">
+      .box{ height: 300px; width: 300px; background-color: #3c6e71; border: 2px
+      solid black; }
+      <br />
+      .box:hover{ width: 800px; background-color: #474d3c; }
+    </div>
+    <br />
+    <div class="box1">
+      .box1{ height: 300px; width: 300px; background-color: #8d99ae; border: 2px
+      solid black; transition-property: width; transition-duration: 4s;
+      transition-delay: 1s; transition-timing-function: linear; }<br />
+      .box1:hover{ width: 800px; background-color: #2b2d42; }
+    </div>
+    <br />
+    <div class="box2">
+      .box2{ height: 300px; width: 300px; background-color: #cad2c5; border: 2px
+      solid black; transition-property: all; transition-duration: 4s;
+      transition-delay: 1s; transition-timing-function: linear; }<br />
+      .box2:hover{ width: 800px; background-color: #fca311; }
+    </div>
+    <br />
+    <div class="box3">
+      .box3{ height: 300px; width: 300px; background-color: #2d3142; border: 2px
+      solid black; transition-property: all; transition-duration: 4s;
+      transition-delay: 1s; transition-timing-function: linear; }<br />
+      .box3:hover{ width: 800px; background-color: #e0afa0; height: 600px; }
+    </div>
+    <br />
+    <div class="box4">
+      .box4{ height: 300px; width: 300px; background-color: #544637; border: 2px
+      solid black; transition-property: all; transition-duration: 4s;
+      transition-delay: 1s; transition-timing-function: ease-in; }<br />
+      .box4:hover{ width: 800px; background-color: #38956a; height: 600px; }
+    </div>
+    <br />
+    <div class="box5">
+      .box5{ height: 300px; width: 300px; background-color: #102542; border: 2px
+      solid black; transition-property: all; transition-duration: 4s;
+      transition-delay: 1s; transition-timing-function: ease-out; }<br />
+      .box5:hover{ width: 800px; background-color: #f87060; height: 600px; }
+    </div>
+    <br />
+    <div class="box6">
+      .box6{ height: 300px; width: 300px; background-color: #6a2b77; border: 2px
+      solid black; transition-property: all; transition-duration: 3s;
+      transition-delay: 1s; transition-timing-function: ease-out; }<br />
+      .box6:hover{ width: 800px; background-color: #e7e57b; height: 600px; }
+    </div>
+    <br />
+    <div class="box7">
+      .box7{ height: 300px; width: 300px; background-color: #5bc0be; border: 2px
+      solid black; transition-property: all; transition-duration: 3s; /*
+      transition-delay: 1s; */ transition-timing-function: ease-out; }<br />
+      .box7:hover{ width: 800px; background-color: #0b132b; height: 600px; }
+    </div>
+    <br />
+    <div class="box8">
+      .box8{ height: 300px; width: 300px; background-color: #f87060; border: 2px
+      solid black; transition-property: all; /* transition-duration: 3s; */ /*
+      transition-delay: 1s; */ transition-timing-function: ease-out; }<br />
+      .box8:hover{ width: 800px; background-color: #65a484; height: 600px; }
+    </div>
+    <br />
+    <div class="box9">
+      /* short hand notation */ .box9{ height: 300px; width: 300px;
+      background-color: #679436; border: 2px solid black; /* property name |
+      duration */ transition: margin-right 4s; }<br />
+      .box9:hover{ width: 800px; background-color: #2d3142; height: 600px; }
+    </div>
+    <br />
+    <div class="box10">
+      .box10{ height: 300px; width: 300px; background-color: #1985a1; border:
+      2px solid black; /* property name | duration | delay */ transition:
+      margin-right 4s 1s; }<br />
+      .box10:hover{ width: 800px; background-color: #c6ac8f; height: 600px; }
+    </div>
+    <br />
+    <div class="box11">
+      .box11{ height: 300px; width: 300px; background-color: #a14919; border:
+      2px solid black; /* property name | duration | easing function */
+      transition: margin-right 4s ease-in-out; }<br />
+      .box11:hover{ width: 800px; background-color: #325a6b; height: 600px; }
+    </div>
+    <br />
+    <div class="box12">
+      .box12{ height: 300px; width: 300px; background-color: #ffea00; border:
+      2px solid black; /* property name | duration | easing function | delay */
+      transition: margin-right 4s ease-in-out 1s; }<br />
+      .box12:hover{ width: 800px; background-color: #00ff22; height: 600px; }
+    </div>
+    <br />
+    <div class="box13">
+      .box13{ height: 300px; width: 300px; background-color: #1954a1; border:
+      2px solid black; /* property name | duration | behavior */ transition:
+      display 4s allow-discrete; }<br />
+      .box13:hover{ width: 800px; background-color: #be6ab5; height: 600px; }
+    </div>
+    <br />
+    <div class="box14">
+      .box14{ height: 300px; width: 300px; background-color: #1d19a1; border:
+      2px solid black; /* Apply to all changed properties */ transition: all
+      0.5s ease-out allow-discrete; transition: 200ms linear 50ms; }<br />
+      .box14:hover{ width: 800px; background-color: #ff7b00; height: 600px; }
+    </div>
+    <br />
+    <div class="box15">
+      .box15{ height: 300px; width: 300px; background-color: #3da119; border:
+      2px solid black; /* Global values */ transition: inherit; transition:
+      initial; transition: revert; transition: revert-layer; transition: unset;
+      }<br />
+      .box15:hover{ width: 800px; background-color: #f03131; height: 600px; }
+    </div>
+    <br />
+    <div class="box16">
+      .box16{ height: 300px; width: 300px; background-color: #a1199f; border:
+      2px solid black; /* Global values */ transition: height 5s, width 2s; }<br />
+      .box16:hover{ width: 800px; background-color: #4a4ec3; height: 600px; }
+    </div>
+    <br />
+  </body>
+</html>
