@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+    <link rel="stylesheet" href="12.animations.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        animation: rightMovement; animation-duration: 5s;
+        animation-iteration-count: 2; animation-delay: 2s;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box1">
+        animation: rightMovement1; animation-duration: 5s;
+        animation-iteration-count: 2; animation-delay: 1s;
+        animation-timing-function: linear;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box2">
+        animation-duration: 5s; animation-iteration-count: 2; animation-delay:
+        1s; animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box3">
+        animation: rightMovement; animation-duration: 5s;
+        animation-iteration-count: 2; animation-delay: 1s;
+        animation-timing-function: cubic-bezier(1, -0.4, 1, 1);
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box4">
+        animation: rightMovement; animation-duration: 5s;
+        animation-iteration-count: infinite; animation-delay: 1s;
+        animation-timing-function: cubic-bezier(0.46, 0.03, 0.52, 0.96);
+      </div>
+    </div>
+
+    <div class="container2">
+      <h1>Elements with Different Cubic Bezier Speed Values</h1>
+
+      <div class="OneDiv" id="div1">cubic-bezier(0,0,1,1)</div>
+      <div class="OneDiv" id="div2">cubic-bezier(0.25,0.1,0.25,1)</div>
+      <div class="OneDiv" id="div3">cubic-bezier(0.42,0,1,1)</div>
+      <div class="OneDiv" id="div4">cubic-bezier(0,0,0.58,1)</div>
+      <div class="OneDiv" id="div5">cubic-bezier(0.42,0,0.58,1)</div>
+    </div>
+
+    <div class="container">
+      <div class="box5">
+        animation: rightMovement1; animation-duration: 5s;
+        animation-iteration-count: infinite; animation-delay: 1s;
+        animation-timing-function: linear; animation-direction: alternate;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box6">
+        animation: rightMovement2; animation-duration: 5s;
+        animation-iteration-count: infinite; animation-delay: 1s;
+        animation-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
+        animation-direction: alternate;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box7">
+        animation: rightMovement3; animation-duration: 5s;
+        animation-iteration-count: 2; animation-fill-mode: forwards;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box8">
+        animation: rightMovement3; animation-duration: 5s;
+        animation-iteration-count: 2; animation-fill-mode: backwards;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box9">
+        animation: rightMovement3; animation-duration: 5s;
+        animation-iteration-count: 2; animation-fill-mode: both;
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box10">
+        animation: 3s ease-in 1s 2 reverse both paused rightMovement3;
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="box11"></div>
+    </div>
+
+    <div class="container4">
+      <div class="box12"></div>
+      <div class="circle"></div>
+    <div class="box13"></div>
+    </div>
+    
+  </body>
+</html>
