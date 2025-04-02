@@ -1,0 +1,274 @@
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2d42;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: auto; */
+}
+
+.box:hover{
+    transform: rotate(45deg);
+}
+
+p{
+    font-size: 32px;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+
+    transition: all 3s linear 1s;
+}
+
+.box1:hover{
+    /* transform: rotate(45deg); */
+    transform: rotate(360deg);
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+
+    transition: all 3s linear 1s;
+}
+
+.box2:hover{
+    transform: rotate(-60deg);
+}
+
+.box3{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+
+    /* transition: all 3s linear 1s; */
+}
+
+.box3:hover{
+    transform: skew(5deg);
+}
+
+.box4{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 3s linear 1s;
+}
+
+.box4:hover{
+    transform: skew(45deg);
+}
+
+.box5{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 3s linear 1s;
+}
+
+.box5:hover{
+    transform: rotate(-60deg);
+}
+
+.box6{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s linear 0.1s;
+}
+
+.box6:hover{
+    transform: scale(2)
+}
+
+.box7{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s linear 0.1s;
+}
+
+.box7:hover{
+    transform: scale(1.2)
+}
+
+.box8{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: all 0.1s linear 0.08s;
+}
+
+.box8:hover{
+    transform: scale(1.3)
+}
+
+.box9{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s linear 0.2s;
+}
+
+.box9:hover{
+    transform: scale(0.8);
+}
+
+.box10{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s linear 1s;
+}
+
+.box10:hover{
+    transform: scale(0.5);
+}
+
+.box11{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s linear 1s;
+}
+
+.box11:hover{
+    transform: translate(300px);
+}
+
+.box12{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s linear 1s;
+}
+
+.box12:hover{
+    transform: translate(-300px);
+}
+
+.box13{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s linear 1s;
+}
+
+.box13:hover{
+    transform: translate(0px, 200px);
+}
+
+.box14{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s linear 1s;
+}
+
+.box14:hover{
+    transform: translate(0px, -200px);
+}
+
+.box15{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s linear 1s;
+}
+
+.box15:hover{
+    transform: translate(200px, 200px);
+}
