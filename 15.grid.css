@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+}
+.item{
+    background-color: rgb(104, 104, 181);
+    border: 5px solid black;
+}
+
+.container1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+
+    grid-template-rows: 100px 100px;  /*2 rows*/
+    grid-template-columns: 100px 100px 100px;  /*3 columns*/
+    column-gap: 1rem;
+
+    /*short hand for row and column gap : gap: 1rem;*/
+}
+
+.container2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+
+    grid-template-rows: 1fr 1fr; /*can also written as grid-template-rows: repeat(2,1fr);*/
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+
+    /*fractional unit (fr) is a unit of measurement that represents a fraction of the available space in a grid layout.
+
+    - When multiple columns or rows are set to 1fr, they each take up an equal amount of space
+
+    - What is fr?
+        fr stands for fraction.
+
+        It is used to allocate space proportionally within a grid container.
+
+        It's only valid in grid layouts, not in flexbox or other layout systems.
+        
+    - When to use fr:
+        When you want flexible and responsive layouts.
+
+        When you don’t want to calculate percentages or fixed widths manually.
+
+        When you want to avoid horizontal scrolling due to hardcoded widths.*/
+}
+
+.container3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /*expanding one cell(header) from 1 to 4*/
+}
+
+.container4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+
+.container5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+.header, .footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /*expanding one cell(header and footer) from 1 to 4*/
+}
+
+.container6{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+
+.container7{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
+.container8{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    display: grid;
+    padding: 50px;
+    row-gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item2{
+    background-color: rgb(93, 125, 115);
+    border: 5px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
