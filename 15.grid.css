@@ -166,3 +166,38 @@ body{
     align-items: center;
     font-size: 2rem;
 }
+
+
+
+.container9{
+    height: 100%;
+    width: 100%;
+    background-color: #32344c;
+    display: grid;
+    padding: 50px;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.item3{
+    background-color: #8d99ae;
+    border: 3px solid black;
+}
+.header3, .footer3{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.sidebar3{
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
+.ads{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
+.content1a, .content8a{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
