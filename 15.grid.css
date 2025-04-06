@@ -1,3 +1,10 @@
+/* 
+GRID GUIDE : -
+
+https://css-tricks.com/snippets/css/complete-guide-grid/ 
+
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -201,3 +208,193 @@ body{
     grid-column-start: 2;
     grid-column-end: 5;
 }
+
+
+.container10{
+    min-height: 100%;
+    width: 100%;
+    background-color: #3e1f47;
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 200px);
+}
+.item4{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+}
+
+.container11{
+    height: 100%;
+    width: 100%;
+    background-color: #6fa18bd0;
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 200px);
+}
+.item5{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    /* height: 100px;
+    width: 100px; */
+    justify-self: stretch;
+}
+
+
+.container12{
+    height: 100%;
+    width: 100%;
+    background-color: #597b68;
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 150px);
+}
+.item6{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+    /* justify-self: stretch; */
+    align-self: end;
+}
+
+.container13{
+    height: 100%;
+    width: 100%;
+    background-color: #3a5b4e;
+    display: grid;
+    gap: 30px;
+    padding: 50px;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 140px);
+}
+.item7{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    /* height: 100px;
+    width: 100px; */
+    align-self: stretch;
+}
+
+.container14{
+    height: 100%;
+    width: 100%;
+    background-color: #488b97;
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 200px);
+}
+.item8{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+    place-self: center;  /*appling both properties of justify and align*/
+}
+
+.container15{
+    height: 100%;
+    width: 100%;
+    background-color: #393f5b;
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.item9{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+}
+
+.container16{
+    height: 100%;
+    width: 100%;
+    background-color: #5f4c3f;
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: end;
+}
+.item10{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+}
+
+.container17{
+    height: 100%;
+    width: 100%;
+    background-color: #4e593d;
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: end;
+}
+.item11{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+}
+
+.container18{
+    height: 100%;
+    width: 100%;
+    background-color: #674e86;
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+.item12{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+}
+
+.container19{
+    height: 100%;
+    width: 100%;
+    background-color: #39565b;
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+.item13{
+    background-color: #272640;
+    border: 3px solid rgb(188, 184, 184);
+    height: 100px;
+    width: 100px;
+}
+
+
+/* 
+GRID GUIDE : -
+
+https://css-tricks.com/snippets/css/complete-guide-grid/ 
+
+*/
